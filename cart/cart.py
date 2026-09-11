@@ -11,4 +11,4 @@ class Cart:
             self.items.remove(product)
 
     def total(self):
-        return sum(item["price"] for item in self.items)
+        return sum(item["price"] for item in self.items)# cart total calculation implemented
