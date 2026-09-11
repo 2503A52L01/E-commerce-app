@@ -10,4 +10,4 @@ def add_product(name, price):
     return "Product added successfully"
 
 def list_products():
-    return products
+    return products#Product search intergation
