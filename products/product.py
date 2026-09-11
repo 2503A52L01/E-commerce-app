@@ -1,8 +1,13 @@
 products = []
 
 def add_product(name, price):
-    products.append({"name": name, "price": price})
+    product = {
+        "name": name,
+        "price": price
+    }
+
+    products.append(product)
     return "Product added successfully"
 
 def list_products():
-    return products
+    return products#Product search intergation
